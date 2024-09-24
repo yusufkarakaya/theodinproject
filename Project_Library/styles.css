@@ -29,6 +29,9 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+.delete {
+  background-color: #dc3545;
+}
 
 /* Basic styling for links */
 a {

@@ -48,6 +48,7 @@ function displayBook(book) {
   toggleRead.textContent = "Read";
   toggleNotRead.textContent = "Not Read";
   deleteButton.textContent = "Delete";
+  deleteButton.classList.add("delete");
 
   data_index.value = myLibrary.indexOf(book) + 1;
   createCard.classList.add("card");
